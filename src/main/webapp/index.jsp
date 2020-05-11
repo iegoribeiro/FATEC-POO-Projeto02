@@ -9,9 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Projeto 02 - POO</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Controle de Cadastros</h1>
+        <h2>Índice</h2>
+        <h3><a href="clientes/list.jsp">Clientes</a></h3>
+        <h3><a href="fornecedores/list.jsp">Fornecedores</a></h3>
     </body>
 </html>
