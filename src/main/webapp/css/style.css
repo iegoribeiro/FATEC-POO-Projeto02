@@ -1,0 +1,39 @@
+#tabelaPrice th, #tabelaPrice td, #tabelaPrice {
+  border: 1px solid black;
+  margin: auto;
+}
+
+#tabelaPrice {
+  width: 80%;
+}
+
+#tabelaPrice th {
+  text-align: center;
+}
+
+#tabelaPrice #indice {
+  width: 40px;
+  text-align: center;
+}
+
+#trTotais {
+  font-weight: bold;
+}
+
+#imgPrice {
+  border:1px solid black;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.valorInvalido {
+  color: #A52A2A;
+  font-weight: bold;
+  text-align: center;
+}
