@@ -54,34 +54,34 @@
         <div class="container">
             <div class="shadow-lg p-2 m-5 bg-light rounded">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <center><h1>Alterar Cliente</h1></center>
+                    <center><h1>Alterar Fornecedor</h1></center>
                     <% if (error != null) {%>
                     <div style="color:red"><%=error%></div>
                     <% }%>
                     <form method="post">
                         <div class="marginEntradaDados">
-                            Nome:<br/>
-                            <input type="text" name="nome" value="<%= fornecedor.getNome()%>"/><br/>
+                            <label><b> Nome </b></label><br/>
+                            <input type="text" name="nome" class="form-control" value="<%= fornecedor.getNome()%>" required/>
                         </div>
                         <div class="marginEntradaDados">
-                            Razão Social:<br/>
-                            <input type="text" name="razaoSocial" value="<%= fornecedor.getRazaoSocial()%>"/><br/>
+                            <label><b> Razão Social </b></label><br/>
+                            <input type="text" name="razaoSocial" class="form-control" value="<%= fornecedor.getRazaoSocial()%>" required/>
                         </div>
                         <div class="marginEntradaDados">
-                            CNPJ:<br/>
-                            <input type="text" name="cnpj" value="<%= fornecedor.getCnpj()%>"/><br/>
+                            <label><b> CNPJ </b></label><br/>
+                            <input type="text" name="cnpj" class="form-control" value="<%= fornecedor.getCnpj()%>" required/>
                         </div>
                         <div class="marginEntradaDados">
-                            E-mail:<br/>
-                            <input type="email" name="email" value="<%= fornecedor.getEmail()%>"/><br/>
+                            <label><b> E-mail </b></label><br/>
+                            <input type="email" name="email" class="form-control" value="<%= fornecedor.getEmail()%>" required/>
                         </div>
                         <div class="marginEntradaDados">
-                            Telefone:<br/>
-                            <input type="tel" name="telefone" value="<%= fornecedor.getTelefone()%>"/><br/>
+                            <label><b> Telefone </b></label><br/>
+                            <input type="tel" name="telefone" class="form-control" value="<%= fornecedor.getTelefone()%>" required/>
                         </div>
                         <div class="marginEntradaDados">
-                            Endereço:<br/>
-                            <input type="text" name="endereco" value="<%= fornecedor.getEndereco()%>"/><br/><br/>
+                            <label><b> Endereço </b></label><br/>
+                            <input type="text" name="endereco" class="form-control" value="<%= fornecedor.getEndereco()%>" required/>
                         </div>
 
                         <hr class="mb-4">
