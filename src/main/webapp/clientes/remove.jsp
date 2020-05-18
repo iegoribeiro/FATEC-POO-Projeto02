@@ -1,7 +1,7 @@
 <%-- 
     Document   : remove
     Created on : May 11, 2020, 9:47:16 PM
-    Author     : iego_
+    Author     : giovanni
 --%>
 
 <%@page import="poo.projeto2.Cliente"%>
